@@ -1,3 +1,2 @@
 __pycache__/
-Train/.mat
-Train_TF/.mat
+*.mat

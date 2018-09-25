@@ -39,7 +39,7 @@ train=tf.get_collection('train_step')
 cost=tf.get_collection('J')
 acc=tf.get_collection('acc')
 
-for i in range(2000):
+for i in range(1000):
 	sess.run(train,feed_dict={xs:X,ys:y})
 	if i%20==0:
 		print('Iter No:',i)

@@ -182,6 +182,7 @@ def gradient_decent(alpha):
 	print('  test case:  y:' ,np.argmax(y[a,:]),' h:',np.argmax(h[a,:]))
 	return
 BeforeJ=J
+
 for i in range(50):
 	print('Training NO: ',i+1)
 	decrease=J

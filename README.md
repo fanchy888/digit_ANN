@@ -5,5 +5,5 @@ The 'Train.py' implements the model using gradient descent and backpropagation w
 ## Train_TF
 The 'Model.py' implenments the model using Tensorflow-GPU.   
 The 'reload.py' reload the model and continue training.  
-Environment: Windows10 + Geforce 960M +CUDA9.0
+Accuracy can reach 92% 
 
